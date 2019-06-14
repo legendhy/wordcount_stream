@@ -11,5 +11,7 @@ class parseLog {
 
     val spark = SparkSession.builder().appName("parse imooc log")
     val sc = new SparkContext().textFile("F:\\BaiduNetdiskDownload\\access.log")
+
+    println(ssc)
   }
 }
